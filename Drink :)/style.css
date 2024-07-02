@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --cor-principal:#FFFFFF;
     --cor-secundaria:#C0C0C0;
@@ -6,6 +11,16 @@
 }
 
 body{
+    
     background-color:var(--cor-de-fundo) #00030C;
+    color: aqua;
+}
+.principal{
+    background-image: url(img/0e918e9d2908a9e89459733a0c64b1db.jpg);
 }
 
+.container{
+    height:100vh;
+   
+    background-size: contain;
+} 
